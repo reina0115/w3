@@ -22,9 +22,9 @@ myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
   console.log("画像をクリックしました");
 }
-
-const myImage = document.querySelector("img");
 */
+const myImage = document.querySelector("img");
+
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
